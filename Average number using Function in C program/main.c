@@ -25,7 +25,7 @@ int main()
 
 float average(int a, int b, int c)
 {
-    int result;
-    result = (a + b + c) / 3;
+    float result;
+    result = (float)(a + b + c) / 3;
     return result;
 }
