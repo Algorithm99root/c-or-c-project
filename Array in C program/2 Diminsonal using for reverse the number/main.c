@@ -18,7 +18,7 @@ int main()
 
     for (int i = 0; i < M; i++)
     {
-        if (i EQUAL 0)
+        if ((i EQUAL 0) || (i % 2 EQUAL 0))
         {
             /* code */
             for (int j = 0; j < N; j++)
@@ -27,15 +27,6 @@ int main()
                 printf("%d ", arr[i][j]);
             }
         }
-        else if (i % 2 EQUAL 0)
-        {
-            for (int j = 0; j < N; j++)
-            {
-
-                printf("%d ", arr[i][j]);
-            }
-        }
-
         else
         {
 
