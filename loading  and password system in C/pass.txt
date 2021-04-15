@@ -28,7 +28,7 @@ void main()
   printf("\n\nPress any key to continue"); 
   getch(); 
  
- if(!strcmp(username,"sumitadmin") && !strcmp(userpwd,"sumit123")) 
+ if(!strcmp(username,"ashik") && !strcmp(userpwd,"ashik123")) 
  { 
   printf("\n\nLogged In Successful"); 
  }else 
