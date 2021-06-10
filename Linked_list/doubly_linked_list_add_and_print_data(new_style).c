@@ -36,7 +36,7 @@ void insert(int data , int position)
     }
 
     ptr->next = temp;
-    temp->previous = ptr->next;
+    temp->previous = ptr;
  
 }
 

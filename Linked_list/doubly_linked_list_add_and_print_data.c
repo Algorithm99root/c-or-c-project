@@ -26,7 +26,7 @@ void add_data(Node *head, int data)
     }
 
     ptr->next = temp;
-    temp->previous = ptr->next;
+    temp->previous = ptr;
 }
 
 void print_data(Node *head)
